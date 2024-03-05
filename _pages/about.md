@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Ph.D. Candidate</b> ⎟ <b>UMich CSE</b> ⎟ <b>Conversational AI</b> | <b>Embodied AI</b>  | <b>Multi-Modal</b>
+subtitle: <b>Ph.D. Candidate</b> ⎟ <b>UMich CSE</b> ⎟ <b>Conversational AI</b> ⎟ <b>Embodied AI</b> ⎟ <b>Multi-Modal</b>
 
 profile:
   align: right
