@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. Candidate in Computer Science and Engineering at University of Michigan
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: UMich_Yichi.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! My name is Yichi Zhang, and I am a Ph.D. candidate in Computer Science and Engineering at University of Michigan. I advised by Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) as a member of the [SLED lab](https://sled.eecs.umich.edu/). I am broadly interested in the intersection between conversational and embodied AI research, with a particular focus on language grounding to visual and physical contexts， multi-modal dialog, and 3D embodied decision making.
+{style="text-align: justify;"}
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before joining UMich, I obtained my Master’s in Information and Communication Engineering at Tsinghua University in 2020, advised by Professor [Zhijian Ou](http://oa.ee.tsinghua.edu.cn/ouzhijian/). In 2019, I worked with Professor [Zhou Yu](https://www.cs.columbia.edu/~zhouyu/) as a visiting scholar on task-oriented dialog systems. I got my Bachelor’s in Electronic Information Science and Technology from Tsinghua University in 2017. 
