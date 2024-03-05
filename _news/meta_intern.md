@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
- I will join <a href="https://research.facebook.com/">Meta Reality Labs</a> to work with <a href="https://shanemoon.com/">Dr. Shane Moon</a> in Summer 2024 as a Research Scientist Intern. Hope to meet new friends in Seattle! [try md](https://shanemoon.com/)
+ I will join [Meta Reality Labs](https://research.facebook.com/) to work with [Dr. Shane Moon](https://shanemoon.com/) in Summer 2024 as a Research Scientist Intern. Hope to meet new friends in Seattle!
 
 
