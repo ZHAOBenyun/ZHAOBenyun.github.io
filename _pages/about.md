@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate in Computer Science and Engineering at University of Michigan
+subtitle: Ph.D. Candidate | CSE | UMich
 
 profile:
   align: right
