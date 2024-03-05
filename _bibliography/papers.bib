@@ -25,14 +25,35 @@
   booktitle={Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
   pages={639--649},
   year={2020},
-  abbr={ACL},
-  preview={acl20_parg.png},
-  abstract={Neural generative models have achieved promising performance on dialog generation tasks if given a huge data set. However, the lack of high-quality dialog data and the expensive data annotation process greatly limit their application in real-world settings. We propose a paraphrase augmented response generation (PARG) framework that jointly trains a paraphrase model and a response generation model to improve the dialog generation performance. We also design a method to automatically construct paraphrase training data set based on dialog state and dialog act labels. PARG is applicable to various dialog generation models, such as TSCP (Lei et al., 2018) and DAMD (Zhang et al., 2019). Experimental results show that the proposed framework improves these state-of-the-art dialog models further on CamRest676 and MultiWOZ. PARG also significantly outperforms other data augmentation methods in dialog generation tasks, especially under low resource settings.},
-  bibtex_show={true},
-  arxiv={2004.07462},
-  pdf={acl20_parg.pdf},
-  code={https://github.com/Silin159/PARG},
-  selected={true}
+}
+
+@inproceedings{gao-etal-2020-paraphrase,
+    title = "Paraphrase Augmented Task-Oriented Dialog Generation",
+    author = "Gao, Silin  and
+      Zhang, Yichi  and
+      Ou, Zhijian  and
+      Yu, Zhou",
+    editor = "Jurafsky, Dan  and
+      Chai, Joyce  and
+      Schluter, Natalie  and
+      Tetreault, Joel",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.60",
+    doi = "10.18653/v1/2020.acl-main.60",
+    pages = "639--649",
+    abstract = "Neural generative models have achieved promising performance on dialog generation tasks if given a huge data set. However, the lack of high-quality dialog data and the expensive data annotation process greatly limit their application in real world settings. We propose a paraphrase augmented response generation (PARG) framework that jointly trains a paraphrase model and a response generation model to improve the dialog generation performance. We also design a method to automatically construct paraphrase training data set based on dialog state and dialog act labels. PARG is applicable to various dialog generation models, such as TSCP (Lei et al., 2018) and DAMD (Zhang et al., 2019). Experimental results show that the proposed framework improves these state-of-the-art dialog models further on CamRest676 and MultiWOZ. PARG also outperforms other data augmentation methods significantly in dialog generation tasks, especially under low resource settings.",
+    abbr={ACL},
+    preview={acl20_parg.png},
+    bibtex_show={true},
+    arxiv={2004.07462},
+    pdf={acl20_parg.pdf},
+    code={https://github.com/Silin159/PARG},
+    selected={true},
+    video={https://slideslive.com/38928976/paraphrase-augmented-taskoriented-dialog-generation}
 }
 
 @inproceedings{zhang2021hierarchical,
@@ -41,7 +62,7 @@
   booktitle={Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021},
   pages={4202--4213},
   year={2021},
-  abbr={Findings of ACL},
+  abbr={ACL Findings},
   preview={acl21_hitut.png},
   abstract={Despite recent progress, learning new tasks through language instructions remains an extremely challenging problem. On the ALFRED benchmark for task learning, the published state-of-the-art system only achieves a task success rate of less than 10% in an unseen environment, compared to the human performance of over 90%. To address this issue, this paper takes a closer look at task learning. In a departure from a widely applied end-to-end architecture, we decomposed task learning into three sub-problems: sub-goal planning, scene navigation, and object manipulation; and developed a model HiTUT (stands for Hierarchical Tasks via Unified Transformers) that addresses each sub-problem in a unified manner to learn a hierarchical task structure. On the ALFRED benchmark, HiTUT has achieved the best performance with a remarkably higher generalization ability. In the unseen environment, HiTUT achieves over 160% performance gain in success rate compared to the previous state of the art. The explicit representation of task structures also enables an in-depth understanding of the nature of the problem and the ability of the agent, which provides insight for future benchmark development and evaluation.},
   bibtex_show={true},
@@ -51,22 +72,35 @@
   selected={true}
 }
 
-@inproceedings{zhang2020probabilistic,
-  title={A Probabilistic End-To-End Task-Oriented Dialog Model with Latent Belief States towards Semi-Supervised Learning},
-  author={Zhang, Yichi and Ou, Zhijian and Hu, Min and Feng, Junlan},
-  booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-  pages={9207--9219},
-  year={2020},
-  abbr={EMNLP},
-  preview={emnlp20_labes.png},
-  abstract={Structured belief states are crucial for user goal tracking and database query in task-oriented dialog systems. However, training belief trackers often requires expensive turn-level annotations of every user utterance. In this paper we aim at alleviating the reliance on belief state labels in building end-to-end dialog systems, by leveraging unlabeled dialog data towards semi-supervised learning. We propose a probabilistic dialog model, called the LAtent BElief State (LABES) model, where belief states are represented as discrete latent variables and jointly modeled with system responses given user inputs. Such latent variable modeling enables us to develop semi-supervised learning under the principled variational learning framework. Furthermore, we introduce LABES-S2S, which is a copy-augmented Seq2Seq model instantiation of LABES. In supervised experiments, LABES-S2S obtains strong results on three benchmark datasets of different scales. In utilizing unlabeled dialog data, semi-supervised LABES-S2S significantly outperforms both supervised-only and semi-supervised baselines. Remarkably, we can reduce the annotation demands to 50% without performance loss on MultiWOZ.},
-  bibtex_show={true},
-  arxiv={2009.08115},
-  pdf={emnlp20_labes.pdf},
-  code={https://github.com/thu-spmi/LABES},
-  selected={true},
-  video={https://slideslive.com/38939308/a-probabilistic-endtoend-taskoriented-dialog-model-with-latent-belief-states-towards-semisupervised-learning},
+@inproceedings{zhang-etal-2020-probabilistic,
+    title = "A Probabilistic End-To-End Task-Oriented Dialog Model with Latent Belief States towards Semi-Supervised Learning",
+    author = "Zhang, Yichi  and
+      Ou, Zhijian  and
+      Hu, Min  and
+      Feng, Junlan",
+    editor = "Webber, Bonnie  and
+      Cohn, Trevor  and
+      He, Yulan  and
+      Liu, Yang",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.740",
+    doi = "10.18653/v1/2020.emnlp-main.740",
+    pages = "9207--9219",
+    abstract = "Structured belief states are crucial for user goal tracking and database query in task-oriented dialog systems. However, training belief trackers often requires expensive turn-level annotations of every user utterance. In this paper we aim at alleviating the reliance on belief state labels in building end-to-end dialog systems, by leveraging unlabeled dialog data towards semi-supervised learning. We propose a probabilistic dialog model, called the LAtent BElief State (LABES) model, where belief states are represented as discrete latent variables and jointly modeled with system responses given user inputs. Such latent variable modeling enables us to develop semi-supervised learning under the principled variational learning framework. Furthermore, we introduce LABES-S2S, which is a copy-augmented Seq2Seq model instantiation of LABES. In supervised experiments, LABES-S2S obtains strong results on three benchmark datasets of different scales. In utilizing unlabeled dialog data, semi-supervised LABES-S2S significantly outperforms both supervised-only and semi-supervised baselines. Remarkably, we can reduce the annotation demands to 50{\%} without performance loss on MultiWOZ.",
+    abbr={EMNLP},
+    preview={emnlp20_labes.png},
+    bibtex_show={true},
+    arxiv={2009.08115},
+    pdf={emnlp20_labes.pdf},
+    code={https://github.com/thu-spmi/LABES},
+    selected={true},
+    video={https://slideslive.com/38939308/a-probabilistic-endtoend-taskoriented-dialog-model-with-latent-belief-states-towards-semisupervised-learning},
 }
+
 
 @inproceedings{wu-etal-2021-alternating,
     title = "Alternating Recurrent Dialog Model with Large-scale Pre-trained Language Models",
@@ -93,4 +127,155 @@
     pdf={eacl21_ardm.pdf},
     code={https://github.com/qywu/ARDM},
     selected={true}
+}
+
+@inproceedings{storks-etal-2021-tiered-reasoning,
+    title = "Tiered Reasoning for Intuitive Physics: Toward Verifiable Commonsense Language Understanding",
+    author = "Storks, Shane  and
+      Gao, Qiaozi  and
+      Zhang, Yichi  and
+      Chai, Joyce",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.422",
+    doi = "10.18653/v1/2021.findings-emnlp.422",
+    pages = "4902--4918",
+    abstract = "Large-scale, pre-trained language models (LMs) have achieved human-level performance on a breadth of language understanding tasks. However, evaluations only based on end task performance shed little light on machines{'} true ability in language understanding and reasoning. In this paper, we highlight the importance of evaluating the underlying reasoning process in addition to end performance. Toward this goal, we introduce Tiered Reasoning for Intuitive Physics (TRIP), a novel commonsense reasoning dataset with dense annotations that enable multi-tiered evaluation of machines{'} reasoning process. Our empirical results show that while large LMs can achieve high end performance, they struggle to support their predictions with valid supporting evidence. The TRIP dataset and our baseline results will motivate verifiable evaluation of commonsense reasoning and facilitate future research toward developing better language understanding and reasoning models.",
+    abbr={EMNLP Findings},
+    preview={emnlp21_trip.png},
+    bibtex_show={true},
+    arxiv={2109.04947},
+    pdf={emnlp21_trip.pdf},
+    code={https://github.com/sled-group/verifiable-coherent-nlu},
+    selected={true}
+}
+
+@inproceedings{zhang-etal-2022-danli,
+    title = "{DANLI}: Deliberative Agent for Following Natural Language Instructions",
+    author = "Zhang, Yichi  and
+      Yang, Jianing  and
+      Pan, Jiayi  and
+      Storks, Shane  and
+      Devraj, Nikhil  and
+      Ma, Ziqiao  and
+      Yu, Keunwoo  and
+      Bao, Yuwei  and
+      Chai, Joyce",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.83",
+    doi = "10.18653/v1/2022.emnlp-main.83",
+    pages = "1280--1298",
+    abstract = "Recent years have seen an increasing amount of work on embodied AI agents that can perform tasks by following human language instructions. However, most of these agents are reactive, meaning that they simply learn and imitate behaviors encountered in the training data. These reactive agents are insufficient for long-horizon complex tasks. To address this limitation, we propose a neuro-symbolic deliberative agent that, while following language instructions, proactively applies reasoning and planning based on its neural and symbolic representations acquired from past experience (e.g., natural language and egocentric vision). We show that our deliberative agent achieves greater than 70{\%} improvement over reactive baselines on the challenging TEACh benchmark. Moreover, the underlying reasoning and planning processes, together with our modular framework, offer impressive transparency and explainability to the behaviors of the agent. This enables an in-depth understanding of the agent{'}s capabilities, which shed light on challenges and opportunities for future embodied agents for instruction following. The code is available at \url{https://github.com/sled-group/DANLI}.",
+    abbr={EMNLP},
+    preview={emnlp22_danli.png},
+    bibtex_show={true},
+    arxiv={2210.12485},
+    pdf={emnlp22_danli.pdf},
+    code={https://github.com/sled-group/DANLI},
+    selected={true},
+    video={https://www.youtube.com/watch?v=WrHynGmCzZE}
+}
+
+@inproceedings{zhang-etal-2023-grounding,
+    title = "Grounding Visual Illusions in Language: Do Vision-Language Models Perceive Illusions Like Humans?",
+    author = "Zhang, Yichi  and
+      Pan, Jiayi  and
+      Zhou, Yuchen  and
+      Pan, Rui  and
+      Chai, Joyce",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.348",
+    doi = "10.18653/v1/2023.emnlp-main.348",
+    pages = "5718--5728",
+    abstract = "Vision-Language Models (VLMs) are trained on vast amounts of data captured by humans emulating our understanding of the world. However, known as visual illusions, human{'}s perception of reality isn{'}t always faithful to the physical world. This raises a key question: do VLMs have the similar kind of illusions as humans do, or do they faithfully learn to represent reality? To investigate this question, we build a dataset containing five types of visual illusions and formulate four tasks to examine visual illusions in state-of-the-art VLMs. Our findings have shown that although the overall alignment is low, larger models are closer to human perception and more susceptible to visual illusions. Our dataset and initial findings will promote a better understanding of visual illusions in humans and machines and provide a stepping stone for future computational models that can better align humans and machines in perceiving and communicating about the shared visual world. The code and data are available at [github.com/vl-illusion/dataset](https://github.com/vl-illusion/dataset).",
+    abbr={EMNLP},
+    preview={emnlp23_illusion.png},
+    bibtex_show={true},
+    arxiv={2311.00047},
+    pdf={emnlp23_illusion.pdf},
+    code={https://github.com/vl-illusion/GVIL},
+    selected={true},
+    video={https://aclanthology.org/2023.emnlp-main.348.mp4},
+    website={https://vl-illusion.github.io/}
+}
+
+@inproceedings{bao-etal-2023-foundation,
+    title = "Can Foundation Models Watch, Talk and Guide You Step by Step to Make a Cake?",
+    author = "Bao, Yuwei  and
+      Yu, Keunwoo  and
+      Zhang, Yichi  and
+      Storks, Shane  and
+      Bar-Yossef, Itamar  and
+      de la Iglesia, Alex  and
+      Su, Megan  and
+      Zheng, Xiao  and
+      Chai, Joyce",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.824",
+    doi = "10.18653/v1/2023.findings-emnlp.824",
+    pages = "12325--12341",
+    abstract = "Despite tremendous advances in AI, it remains a significant challenge to develop interactive task guidance systems that can offer situated, personalized guidance and assist humans in various tasks. These systems need to have a sophisticated understanding of the user as well as the environment, and make timely accurate decisions on when and what to say. To address this issue, we created a new multimodal benchmark dataset, Watch, Talk and Guide (WTaG) based on natural interaction between a human user and a human instructor. We further proposed two tasks: User and Environment Understanding, and Instructor Decision Making. We leveraged several foundation models to study to what extent these models can be quickly adapted to perceptually enabled task guidance. Our quantitative, qualitative, and human evaluation results show that these models can demonstrate fair performances in some cases with no task-specific training, but a fast and reliable adaptation remains a significant challenge. Our benchmark and baselines will provide a stepping stone for future work on situated task guidance.",
+    abbr={EMNLP Findings},
+    preview={emnlp23_wtag.png},
+    bibtex_show={true},
+    arxiv={2311.00738},
+    pdf={emnlp23_wtag.pdf},
+    code={https://github.com/sled-group/Watch-Talk-and-Guide},
+    selected={true}
+}
+
+
+@InProceedings{Ci_2023_CVPR,
+    author    = {Ci, Hai and Wu, Mingdong and Zhu, Wentao and Ma, Xiaoxuan and Dong, Hao and Zhong, Fangwei and Wang, Yizhou},
+    title     = {GFPose: Learning 3D Human Pose Prior With Gradient Fields},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {4800-4810}
+}
+
+
+@article{zhang2024groundhog,
+  title={GROUNDHOG: Grounding Large Language Models to Holistic Segmentation},
+  author={Zhang, Yichi and Ma, Ziqiao and Gao, Xiaofeng and Shakiah, Suhaila and Gao, Qiaozi and Chai, Joyce},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2024},
+  abstract = "Most multimodal large language models (MLLMs) learn language-to-object grounding through causal language modeling where grounded objects are captured by bounding boxes as sequences of location tokens. This paradigm lacks pixel-level representations that are important for fine-grained visual understanding and diagnosis. In this work, we introduce GROUNDHOG, an MLLM developed by grounding Large Language Models to holistic segmentation. GROUNDHOG incorporates a masked feature extractor and converts extracted features into visual entity tokens for the MLLM backbone, which then connects groundable phrases to unified grounding masks by retrieving and merging the entity masks. To train GROUNDHOG, we carefully curated M3G2, a grounded visual instruction tuning dataset with Multi-Modal Multi-Grained Grounding, by harvesting a collection of segmentation-grounded datasets with rich annotations. Our experimental results show that GROUNDHOG achieves superior performance on various language grounding tasks without task-specific fine-tuning, and significantly reduces object hallucination. GROUNDHOG also demonstrates better grounding towards complex forms of visual input and provides easy-to-understand diagnosis in failure cases.",
+  abbr={CVPR},
+  preview={cvpr24_groundhog.png},
+  bibtex_show={true},
+  arxiv={2402.16846},
+  pdf={cvpr24_groundhog.pdf},
+  selected={true},
+  website={https://groundhog-mllm.github.io/},
+  codecoming={true}
 }
