@@ -248,7 +248,7 @@
 }
 
 
-@article{zhang2024groundhog,
+@inproceedings{zhang2024groundhog,
   title={GROUNDHOG: Grounding Large Language Models to Holistic Segmentation},
   author={Zhang, Yichi and Ma, Ziqiao and Gao, Xiaofeng and Shakiah, Suhaila and Gao, Qiaozi and Chai, Joyce},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
@@ -264,4 +264,39 @@
   selected={true},
   website={https://groundhog-mllm.github.io/},
   codecoming={true}
+}
+
+@article{dai2021elastic,
+  title={Elastic CRFs for Open-Ontology Slot Filling},
+  author={Dai, Yinpei and Zhang, Yichi and Liu, Hong and Ou, Zhijian and Huang, Yi and Feng, Junlan},
+  journal={Applied Sciences},
+  volume={11},
+  number={22},
+  pages={10675},
+  year={2021},
+  publisher={MDPI},
+  abstract={Slot filling is a crucial component in task-oriented dialog systems that is used to parse (user) utterances into semantic concepts called slots. An ontology is defined by the collection of slots and the values that each slot can take. The most widely used practice of treating slot filling as a sequence labeling task suffers from two main drawbacks. First, the ontology is usually pre-defined and fixed and therefore is not able to detect new labels for unseen slots. Second, the one-hot encoding of slot labels ignores the correlations between slots with similar semantics, which makes it difficult to share knowledge learned across different domains. To address these problems, we propose a new model called elastic conditional random field (eCRF), where each slot is represented by the embedding of its natural language description and modeled by a CRF layer. New slot values can be detected by eCRF whenever a language description is available for the slot. In our experiment, we show that eCRFs outperform existing models in both in-domain and cross-domain tasks, especially in predicting unseen slots and values.},
+  abbr={Applied Sciences},
+  preview={ecrf.png},
+  bibtex_show={true},
+  arxiv={1811.01331},
+  pdf={ecrf.pdf},
+  selected={true},
+}
+
+@inproceedings{zhang2020improved,
+  title={Improved Learning of Word Embeddings with Word Definitions and Semantic Injection.},
+  author={Zhang, Yichi and Dai, Yinpei and Ou, Zhijian and Wang, Huixin and Feng, Junlan},
+  booktitle={INTERSPEECH},
+  pages={4253--4257},
+  year={2020},
+  abstract={Recently, two categories of linguistic knowledge sources, word definitions from monolingual dictionaries and linguistic relations (e.g. synonymy and antonymy), have been leveraged separately to improve the traditional co-occurrence based methods for learning word embeddings. In this paper, we investigate to leverage these two kinds of resources together. Specifically, we propose a new method for word embedding specialization, named Definition Autoencoder with Semantic Injection (DASI). In our experiments, DASI outperforms its single-knowledge-source counterparts on two semantic similarity benchmarks, and the improvements are further justified on a downstream task of dialog state tracking. We also show that DASI is superior over simple combinations of existing methods in incorporating the two knowledge sources.},
+  abbr={INTERSPEECH},
+  preview={is2020_dasi.png},
+  bibtex_show={true},
+  arxiv={1811.01331},
+  pdf={is2020_dasi.pdf},
+  selected={true},
+  code={https://github.com/thu-spmi/DASI},
+  video={http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=354&id=1174},
 }
