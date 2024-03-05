@@ -7,7 +7,7 @@ subtitle: Ph.D. Candidate in Computer Science and Engineering at University of M
 profile:
   align: right
   image: UMich_Yichi.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info:
 
 news: true # includes a list of news items
