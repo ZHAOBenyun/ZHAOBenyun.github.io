@@ -12,7 +12,7 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 Hello! My name is Yichi Zhang, and I am a Ph.D. candidate in Computer Science and Engineering at University of Michigan. I advised by Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) as a member of the [SLED lab](https://sled.eecs.umich.edu/). I am broadly interested in the intersection between conversational and embodied AI research, with a particular focus on language grounding to visual and physical contexts， multi-modal dialog, and 3D embodied decision making.
